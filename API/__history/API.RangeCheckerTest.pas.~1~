@@ -8,6 +8,7 @@ uses
   DateUtils,
 //
   API.Objects.Comparer,
+  System.RegularExpressions,
   System.Generics.Collections,
   System.Generics.Defaults;
 
@@ -230,7 +231,7 @@ initialization
     ThousandSeparator := '.';
   end;
 
-  // Register variables (NB: Registering variables must be done After variables is Assigned!!)
+  // Register variables
   TRangeTester<TPoint>.RegisterVariable(gPoint1, 'Point1');
   TRangeTester<TPoint>.RegisterVariable(gPoint2, 'Mini-Point2');
   TRangeTester<TPoint>.RegisterVariable(gPoint3, 'Max-Point3');

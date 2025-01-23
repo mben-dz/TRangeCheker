@@ -153,6 +153,8 @@ type
     function Edit(const aName: string; const aValue: Integer): ICustomRecord;
   public
     constructor Create(const aName: string; aValue: Integer);
+
+    property Name: string read fName;
   end;
 
   TProduct = class(TInterfacedObject, IProduct, IProductUpdate)
@@ -361,5 +363,6 @@ begin
   fAge  := aAge;
 end;
 {$ENDREGION}
+
 
 end.
