@@ -18,7 +18,7 @@ A simple, generic, and extensible range checker for Delphi, supporting numeric, 
 Clone or download the `API.Utils.pas` file and add it to your Delphi project.
 
 ```bash
-git clone https://github.com/mben-dz/TRangeCheck.git
+git clone https://github.com/mben-dz/TRangeCheker.git
 ```
 ## Usage Example
 
